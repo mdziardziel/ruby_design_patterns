@@ -4,8 +4,8 @@ class Director
   end
 
   def create_product
-    builder.create_product
-    builder.add_product_feature
+    builder.init_product
+    builder.build_part
 
     builder.product
   end

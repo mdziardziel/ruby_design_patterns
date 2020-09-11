@@ -8,11 +8,11 @@ class ConcreteBuilder < Builder
     @params = params
   end
 
-  def create_product
+  def init_product
     @product = Product.new
   end
 
-  def add_product_feature
+  def build_part
     product.add_feature(params[:feature])
   end
 
