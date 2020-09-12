@@ -1,7 +1,9 @@
 require './builder'
 require './product'
 
-class ConcreteBuilder < Builder
+class ConcreteBuilder
+  include Builder
+
   attr_reader :product
 
   def initialize(params)

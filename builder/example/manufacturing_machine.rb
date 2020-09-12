@@ -1,4 +1,4 @@
-class ManufacturingMachine
+module ManufacturingMachine
   def initialize_packaging
   end
   

@@ -1,7 +1,9 @@
 require './manufacturing_machine'
 require './can'
 
-class CanManufacturingMachine < ManufacturingMachine
+class CanManufacturingMachine
+  include ManufacturingMachine
+
   attr_reader :packaging
 
   def initialize(params)

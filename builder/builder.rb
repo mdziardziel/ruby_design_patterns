@@ -1,4 +1,4 @@
-class Builder
+module Builder
   def init_product
   end
   
